@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  height: 50px;
+  background-color: grey;
+}
+header > nav > ul > li{
+  float: right;
+  list-style: none;
+  padding-top: 5px;
+  padding-right: 5px;
+}
+header > nav > ul > li > a{
+  text-decoration: none;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-family: 'Alternates', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+main > div > h1{
+text-align: center;
+color: #000000;
+font-size: 50px;
+padding-top: 15px;
+}
+.first{
+  display: flex;
+  flex-basis: 50%;
+  padding-top: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.second{
+  display: flex;
+  flex-basis: 50%;
+  padding-top: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.third{
+  display: flex;
+  flex-basis: 50%;
+  padding-top: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 25px;
+}
+.one{
+  padding-left: 10px;
+  padding-right: 15px;
+}
+.two{
+  padding-left: 10px;
+  padding-right: 15px;
+}
+.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+}
+.first > div > h3{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-size: 25px;
+}
+.second > div > h3{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-size: 25px;
+}
+.third > div > h3{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-size: 25px;
+}
+.first > div > a{
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 8px 20px;
+  margin-top: 10px;
+  border-color: #000000;
+  text-decoration: none;
+  color: #000000;
+  display: inline-block;
+}
+.second > div > a{
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 8px 20px;
+  margin-top: 10px;
+  border-color: #000000;
+  text-decoration: none;
+  color: #000000;
+  display: inline-block;
+}
+.third > div > a{
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 8px 20px;
+  margin-top: 10px;
+  border-color: #000000;
+  text-decoration: none;
+  color: #000000;
+  display: inline-block;
+}
